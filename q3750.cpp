@@ -4,7 +4,7 @@
 #include <cstring>
 #include <string>
 using namespace std;
-//cout´ë½Å printf ½Ã°£ÃÊ°úÇØ°á
+//coutëŒ€ì‹  printf ì‹œê°„ì´ˆê³¼í•´ê²°
 int sum = 0;
 
 int main()
