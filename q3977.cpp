@@ -5,7 +5,7 @@
 using namespace std;
 int check[1000001] = {};
 int dp[1000001] = {};
-//2=1^2+1^2 ÀÌ¹Ç·Î 2µµÆ÷ÇÔÇØ¾ßÇÔ
+//2=1^2+1^2 ì´ë¯€ë¡œ 2ë„ í¬í•¨í•´ì•¼í•¨
 void getChe(int num)
 {
 	for (int i = 2; i <= num; i++)
