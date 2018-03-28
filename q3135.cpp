@@ -27,7 +27,7 @@ extern void insert(int buffer_size, char *buf)
 	for (int i = 0; i < buffer_size; i++)
 	{
 		int letter = (int)buf[i] - (int)'a';
-		if (current->child[letter] == NULL)//¾ø´Â °æ¿ì
+		if (current->child[letter] == NULL)//ì—†ëŠ” ê²½ìš°
 			current->child[letter] = new node();
 
 		current->child[letter]->prefix_count++;
@@ -42,7 +42,7 @@ extern int query(int buffer_size, char *buf)//search
 	for (int i = 0; i < buffer_size; i++)
 	{
 		int letter = (int)buf[i] - (int)'a';
-		if (current->child[letter] == NULL)//¾ø´Â °æ¿ì
+		if (current->child[letter] == NULL)//ì—†ëŠ” ê²½ìš°
 			return 0;
 
 		current = current->child[letter];
