@@ -5,7 +5,7 @@
 using namespace std;
 int check[1000001] = {};
 int dp[1000001] = {};
-//2=1^2+1^2 이므로 2도 포함해야함
+//2=1^2+1^2 이므로 2도 포함해야함 
 void getChe(int num)
 {
 	for (int i = 2; i <= num; i++)
