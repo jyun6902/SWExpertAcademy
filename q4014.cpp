@@ -5,7 +5,7 @@
 using namespace std;
 int maps[22][22];
 int visit[22][22];
-int N = 0, X = 0; //(6 ¡Â N ¡Â 20) // ( 2 ¡Â X ¡Â 4 )
+int N = 0, X = 0; //(6 â‰¤ N â‰¤ 20) // ( 2 â‰¤ X â‰¤ 4 )
 int result = 0;
 void cal_wide(int x)
 {
