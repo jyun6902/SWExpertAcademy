@@ -6,7 +6,6 @@
 using namespace std;
 //cout대신 printf 시간초과해결
 int sum = 0;
-
 int main()
 {
 	int T = 0;
