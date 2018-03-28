@@ -4,8 +4,8 @@
 using namespace std;
 int save[1000001] = {};
 int remain[100001] = {};
-//max (p) = 999990 -> save=10^6ÇØÁà¾ßÇÔ
-//p°¡ ´Ù½Ã ¾È³ª¿Ã¶§ ±îÁö ÇÏ´Â°Ô point
+//max (p) = 999990 -> save=10^6í•´ì¤˜ì•¼í•¨
+//pê°€ ë‹¤ì‹œ ë‚˜ì˜¬ë•Œê¹Œì§€ while()í•˜ëŠ”ê²Œ point
 int main()
 {
 	int T = 0;
